@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-  <main>
+  <div class="layout">
     <header>
       <div class="header--logo">
         <button class="header--button" d type="button"><i class="fa-solid fa-bars"></i></button>
         <span class="logo--icon">
-          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-youtube"></i> YouTube
         </span>
       </div>
       <div class="header--search">
@@ -34,25 +34,43 @@
           <i class="fa-solid fa-ellipsis-vertical"></i>
         </button>
         <button class="header--button header--button__blue" type="button">
-          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-user"></i> SING IN
         </button>
       </div>
     </header>
-
     <aside>
       <ul class="aside--list">
         <li>
-          <a href="/">Principal</a>
+          <a href="/"><i class="fa-solid fa-house"></i> Main</a>
         </li>
         <li>
-          <a href="/">Explorer</a>
+          <a href="/"><span class="aside--icon"><img src="./image/direction.png" alt="logo explore"></span> Explore</a>
         </li>
         <li>
-          <a href="/">Shorts</a>
+          <a href="/"><span class="aside--icon"><img src="./image/shortPNG.PNG" alt="logo Shorts"></span> Shorts</a>
         </li>
         <li>
-          <a href="/">Subscriptions</a>
+          <a href="/"><span class="aside--icon"><img src="./image/subscribe.png" alt="logo Subscriptions"></span> Subscriptions</a>
         </li>
+      <ul class="aside--list">
+        <li>
+          <a href="/"><span class="aside--icon"><img src="./image/library.PNG" alt="logo Library"></span> Library</a>
+        </li>
+        <li>
+          <a href="/"><i class="fa-solid fa-clock-rotate-left"></i> History</a>
+        </li>
+      </ul>
+      <ul class="aside--list">
+        <li>
+          <a href="/"><span class="aside--icon"><img src="./image/console.png" alt="logo Library"></span> Video games</a>
+        </li>
+        <li>
+          <p class="aside--sing-in-description">Sign in to like videos, comment, and subscribe.</p>
+          <button class="header--button  aside--sing-in" type="button">
+            <i class="fa-solid fa-user"></i> SING IN
+          </button>
+        </li>
+
       </ul>
     </aside>
     <ul class="tags">
@@ -61,7 +79,127 @@
       <li class="tags--item">HTML</li>
       <li class="tags--item">CSS</li>
     </ul>
-  </main>
+    <main class="videos">
+      <div class="videos--row">
+        <h2 class="videos--title">Recommendations</h2>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="videos--row">
+        <h2 class="videos--title">Trends</h2>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video--cover">
+            <img src="https://picsum.photos/200" alt="Video cover">
+            <span>10:00</span>
+          </div>
+          <div class="video--details">
+            <img src="https://picsum.photos/201" alt="Video profile">
+            <div class="video--description">
+              <h2 class="video--title">You create your #PlatziChallenge</h2>
+              <p>Platzi</p>
+              <p>1000 views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
   
 </body>
 </html>
